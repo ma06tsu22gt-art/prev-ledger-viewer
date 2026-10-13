@@ -36,7 +36,7 @@
 <tr><th>情報</th><th>取得元</th><th>目的</th></tr>
 <tr><td>会計データ（仕訳〔取引先名・摘要・メモを含む〕、勘定科目、事業者名・事業者番号、会計期間、消費税の設定〔課税方式・経理方式〕）</td><td>マネーフォワード クラウド会計の公開API</td><td>残高試算表・総勘定元帳・補助元帳を画面に表示するため</td></tr>
 <tr><td>認証情報（クライアントID、クライアントシークレット、アクセストークン、リフレッシュトークン）</td><td>利用者の入力、およびマネーフォワードの認可サーバー</td><td>マネーフォワード クラウド会計のAPIに接続するため</td></tr>
-<tr><td>CSVファイル（仕訳帳・総勘定元帳）の内容</td><td>利用者が選んだファイル</td><td>上と同じく、元帳を画面に表示するため</td></tr>
+<tr><td>CSVファイル（仕訳帳・総勘定元帳・残高試算表）の内容</td><td>利用者が選んだファイル</td><td>上と同じく、元帳を画面に表示するため</td></tr>
 <tr><td>同意の記録（同意した日時）</td><td>本拡張機能の画面での操作</td><td>同意が済んでいるかどうかを覚えておくため</td></tr>
 </table></div>
 <p>会計データの取引先名や摘要には、個人の氏名などが含まれることがあります。</p>
@@ -97,7 +97,7 @@
 <tr><th>Information</th><th>Source</th><th>Purpose</th></tr>
 <tr><td>Accounting data (journal entries, including trade partner names, descriptions and memos; accounts; office name and office number; fiscal periods; consumption tax settings)</td><td>The public API of Money Forward Cloud Accounting</td><td>To display the trial balance, general ledger and subsidiary ledger on the user's screen</td></tr>
 <tr><td>Authentication information (client ID, client secret, access token, refresh token)</td><td>Entered by the user, and issued by Money Forward's authorization server</td><td>To connect to the Money Forward Cloud Accounting API</td></tr>
-<tr><td>Contents of a CSV file (journal or general ledger export)</td><td>A file the user selects</td><td>To display ledgers, as above</td></tr>
+<tr><td>Contents of a CSV file (journal, general ledger or trial balance export)</td><td>A file the user selects</td><td>To display ledgers, as above</td></tr>
 <tr><td>Consent record (date and time of consent)</td><td>The user's action in the Extension</td><td>To remember that consent has been given</td></tr>
 </table></div>
 <p>Trade partner names and descriptions in accounting data may include personal names.</p>
